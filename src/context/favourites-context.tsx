@@ -7,6 +7,7 @@ import {
   useContext,
   ReactNode,
 } from "react";
+import safeLocalStorage from "@/lib/safe-storage";
 
 interface FavoritesContextType {
   favourites: string[];
@@ -24,24 +25,31 @@ const FavoritesContext = createContext<FavoritesContextType>({
 
 export function FavoritesProvider({ children }: { children: ReactNode }) {
   const [favourites, setFavourites] = useState<string[]>([]);
+  const [isClient, setIsClient] = useState(false);
 
-  // Load favourites on mount
+  // Set client-side mount state
   useEffect(() => {
-    const stored = localStorage.getItem("favourite");
+    setIsClient(true);
+  }, []);
+
+  // Load favourites on mount (only on client with working localStorage)
+  useEffect(() => {
+    if (!isClient) return;
+    const stored = safeLocalStorage.getItem("favourite");
     if (stored) {
       try {
         setFavourites(JSON.parse(stored));
       } catch (error) {
         console.error("Error parsing favourites from localStorage:", error);
-        setFavourites([]);
       }
     }
-  }, []);
+  }, [isClient]);
 
   // Save favourites to localStorage
   useEffect(() => {
-    localStorage.setItem("favourite", JSON.stringify(favourites));
-  }, [favourites]);
+    if (!isClient) return;
+    safeLocalStorage.setItem("favourite", JSON.stringify(favourites));
+  }, [isClient, favourites]);
 
   const toggleFavourite = (id: string) => {
     setFavourites((prev) =>

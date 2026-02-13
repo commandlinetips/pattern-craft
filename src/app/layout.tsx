@@ -1,3 +1,6 @@
+// Import safe-storage first to fix broken localStorage on Node.js v25
+import "@/lib/safe-storage";
+
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type React from "react";
@@ -5,7 +8,7 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { Toaster } from "sonner";
-import { ThemeProvider } from "@/components/providers/theme-provider";
+import { ThemeProvider } from "@/components/providers/theme-provider-client";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://patterncraft.fun"),
@@ -505,6 +508,7 @@ export default function RootLayout({
           attribute="class"
           defaultTheme="light"
           enableSystem={false}
+          storageKey="pattern-craft-theme"
         >
           <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {children}
