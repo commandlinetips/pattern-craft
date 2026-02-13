@@ -17,27 +17,17 @@
     <img src="https://img.shields.io/github/stars/megh-bari/pattern-craft?style=social" alt="GitHub stars" />
 <img src="https://img.shields.io/github/forks/megh-bari/pattern-craft?style=social" alt="GitHub forks" />
 <img src="https://img.shields.io/github/license/megh-bari/pattern-craft?style=social" alt="License" />
-<a href="https://vercel.com/oss">
-    <img src="https://img.shields.io/badge/Sponsored%20by-Vercel-000000?style=social&logo=vercel&logoColor=black" alt="Sponsored by Vercel" />
-</a>
+
+
     
   </p>
 </div>
 
 ---
 
-> **This project is proudly sponsored by [Vercel](https://vercel.com/oss). Thank you for supporting open source!**
+> **This project is open source and available under MIT License.**
 
-  <!-- <p align="center">
-<a href="https://vercel.com/oss">
-<img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" alt="Powered by Vercel" height="40">
-</a>
-</p> -->
-
-<br />
-<a href="https://vercel.com/oss">
-  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
-</a>
+  <br />
 
 ## Visit: **[Pattern Craft](https://patterncraft.fun)**
 
@@ -78,19 +68,10 @@ Check out this growing list of shoutouts, showcases, and love from the community
 - **Next.js 14** - React framework with App Router
 - **TypeScript** - Type-safe development
 - **Tailwind CSS** - Utility-first CSS framework
-- **Vercel** - Deployment and hosting
 
-## Sponsored by <a href="https://vercel.com/oss">Vercel⚡</a>
 
-**This project is proudly powered by <b>Vercel</b>. The platform behind PatternCraft’s blazing-fast deployment and seamless scalability.**<br>
 
-<i>Big thanks to Vercel for supporting open source and keeping this project running smoothly!</i>
-<br><br>
-<a href="https://vercel.com/oss">
-<img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" alt="Powered by Vercel" height="40">
-</a>
-
-</p>
+## Getting Started
 
 ## Getting Started
 
@@ -139,7 +120,7 @@ npm start
 
 ## How to Use This
 
-1. Visit the live site: **[https://patterncraft.fun](https://pattern-craft.vercel.app/)**
+1. Visit the live site: **[https://patterncraft.fun](https://patterncraft.fun/)**
 2. Browse through the collection of background patterns and gradients.
 3. Click on any pattern to open its preview modal.
 4. Copy the CSS/Tailwind-compatible code snippet.
@@ -226,8 +207,6 @@ Each pattern includes:
 - Cross-browser compatibility
 
 ## Contributing
-
-> **This project is sponsored by Vercel, which helps us maintain a stable development environment.**
 
 We welcome contributions to expand the pattern collection. To add new patterns:
 
@@ -402,9 +381,6 @@ If you like this project, consider giving it a ⭐️ on GitHub and sharing it w
 
 >This project is proudly supported by:
 
-<a href="https://vercel.com/oss">
-  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
-</a>
 
 ## Star History
 

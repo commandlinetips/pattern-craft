@@ -21,7 +21,8 @@ export const SUPPORT_CONFIG = {
 } as const;
 
 export const APP_CONFIG = {
-  GITHUB_URL: "https://github.com/megh-bari/pattern-craft",
-  TWITTER_URL: "https://twitter.com/meghtrix",
-  CONTRIBUTING_URL: "https://github.com/megh-bari/pattern-craft#contributing",
+  GITHUB_URL: "https://github.com/commandlinetips/pattern-craft",
+  TWITTER_URL: "https://twitter.com/commandlinetips",
+  CONTRIBUTING_URL: "https://github.com/commandlinetips/pattern-craft#contributing",
+  ORIGINAL_REPO_URL: "https://github.com/megh-bari/pattern-craft",
 } as const;

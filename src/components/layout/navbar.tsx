@@ -3,6 +3,7 @@
 import { Github, Twitter } from "lucide-react";
 import Image from "next/image";
 import { APP_CONFIG } from "@/lib/constants";
+import { LanguageToggle } from "@/components/ui/language-toggle";
 
 interface NavbarProps {
   theme: "light" | "dark";
@@ -34,6 +35,7 @@ export default function Navbar({ theme }: NavbarProps) {
           <span className="whitespace-nowrap">PatternCraft</span>
         </span>
         <div className="flex items-center gap-3">
+          <LanguageToggle theme={theme} />
           <div className="flex gap-2 sm:gap-4">
             <a
               href={APP_CONFIG.TWITTER_URL}

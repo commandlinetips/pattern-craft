@@ -1,8 +1,6 @@
 // Import safe-storage first to fix broken localStorage on Node.js v25
 import "@/lib/safe-storage";
 
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import type React from "react";
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
@@ -147,8 +145,8 @@ export const metadata: Metadata = {
     "design-ready gradients and patterns",
   ].join(", "),
 
-  authors: [{ name: "Megh Bari", url: "https://github.com/megh-bari" }],
-  creator: "Megh Bari",
+  authors: [{ name: "Khaled", url: "https://github.com/commandlinetips" }],
+  creator: "Khaled",
   publisher: "Pattern Craft",
 
   robots: {
@@ -233,8 +231,8 @@ export const metadata: Metadata = {
     "google-site-verification": "xeqxMvzZZQWV43nn06hJDnwUVVaRfYRaMrYHy",
 
     // Rich snippets hints
-    "article:author": "Megh Bari",
-    "article:publisher": "https://github.com/megh-bari",
+    "article:author": "Khaled",
+    "article:publisher": "https://github.com/commandlinetips",
     "article:section": "Web Development",
     "article:tag": "CSS, Background Patterns, Gradients, Web Design",
     "og:updated_time": new Date().toISOString(),
@@ -244,7 +242,7 @@ export const metadata: Metadata = {
     "revisit-after": "7 days",
     distribution: "global",
     rating: "general",
-    copyright: "© 2025 Megh Bari. All rights reserved.",
+    copyright: `© ${new Date().getFullYear()} Khaled. Forked from Pattern Craft by Megh Bari. MIT License.`,
   },
 };
 
@@ -309,8 +307,8 @@ export default function RootLayout({
               },
               author: {
                 "@type": "Person",
-                name: "Megh Bari",
-                url: "https://github.com/megh-bari",
+                name: "Khaled",
+                url: "https://github.com/commandlinetips",
               },
               publisher: {
                 "@type": "Organization",
@@ -512,8 +510,6 @@ export default function RootLayout({
         >
           <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {children}
-            <Analytics />
-            <SpeedInsights />
           </div>
           <Toaster />
         </ThemeProvider>
