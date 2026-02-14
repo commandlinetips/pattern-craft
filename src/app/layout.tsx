@@ -315,7 +315,7 @@ export default function RootLayout({
                 name: "PatternCraft",
                 url: "https://patterncraft.fun",
               },
-              datePublished: "2024-01-01",
+              datePublished: "2025-01-01",
               dateModified: new Date().toISOString(),
               inLanguage: "en-US",
               isAccessibleForFree: true,
