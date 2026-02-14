@@ -5,6 +5,7 @@ import { useState } from "react";
 import { gridPatterns } from "@/data/patterns";
 import { categories } from "@/data/categories";
 import { useFavorites } from "@/context/favourites-context";
+import { useLanguage } from "@/context/language-context";
 import PatternGrid from "./pattern-grid";
 import PatternEmptyState from "./pattern-empty-state";
 import { SearchBar } from "../search/search-bar";
@@ -24,6 +25,7 @@ export default function PatternShowcase({
   const [activeMobileCard, setActiveMobileCard] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState<string>("all");
   const { favourites } = useFavorites();
+  const { t } = useLanguage();
   const isPatternDark = theme === "dark";
 
   const [searchInput, setSearchInput] = useState<string>("");
@@ -51,14 +53,14 @@ export default function PatternShowcase({
               isPatternDark ? "text-white" : "text-gray-900 dark:text-gray-50"
             }`}
           >
-            Pattern Library
+            {t.showcase.title}
           </h2>
           <p
             className={`text-sm sm:text-base transition-colors duration-300 ${
               isPatternDark ? "text-gray-300" : "text-muted-foreground"
             }`}
           >
-            Tap on mobile or hover on desktop to see options
+            {t.showcase.subtitle}
           </p>
         </div>
       </div>
@@ -126,7 +128,7 @@ export default function PatternShowcase({
                 `}
               />
               <span className="font-medium z-10 text-center leading-tight">
-                {category.label}
+                {t.category[category.id as keyof typeof t.category]}
               </span>
               <div
                 className={`
@@ -163,7 +165,7 @@ export default function PatternShowcase({
                   }
                 `}
               >
-                <span>{category.label}</span>
+                <span>{t.category[category.id as keyof typeof t.category]}</span>
               </button>
             ))}
           </div>
@@ -188,9 +190,7 @@ export default function PatternShowcase({
                   isPatternDark ? "text-gray-300" : "text-muted-foreground"
                 }`}
               >
-                {filteredPatterns.length} pattern
-                {filteredPatterns.length !== 1 ? "s" : ""}
-                {category.id !== "all" && ` in ${category.label}`}
+                {t.showcase.patternCount(filteredPatterns.length, category.label)}
               </p>
             </div>
 

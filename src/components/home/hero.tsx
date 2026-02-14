@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Github, Copy, Eye, Code2, Zap } from "lucide-react";
 import { APP_CONFIG } from "@/lib/constants";
+import { useLanguage } from "@/context/language-context";
 import CarbonAd from "../ads/CarbonAds";
 import Sponsors from "../sponsors/sponsors";
 
@@ -21,6 +22,7 @@ const handleBrowsePatternsClick = () => {
 
 export default function Hero({ theme }: HeroProps) {
   const isPatternDark = theme === "dark";
+  const { t } = useLanguage();
 
   return (
     <section className="container mx-auto py-8 sm:py-12 md:py-16 lg:py-12 text-center relative overflow-hidden px-4 sm:px-6 lg:px-8 flex items-center justify-center">
@@ -44,10 +46,10 @@ export default function Hero({ theme }: HeroProps) {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </div>
-              <span className="font-medium">5+ New Patterns</span>
+              <span className="font-medium">{t.hero.badge}</span>
               <Zap className="h-3 w-3 text-orange-500" />
               <span className="hidden sm:inline-flex items-center">
-                Read More
+                {t.hero.badgeReadMore}
               </span>
               <ArrowRight className="h-3 w-3" />
             </Badge>
@@ -61,7 +63,7 @@ export default function Hero({ theme }: HeroProps) {
               className={`font-medium transition-colors duration-300 ${isPatternDark ? "text-white" : "text-gray-900 dark:text-gray-50"
                 }`}
             >
-              Craft Beautiful
+              {t.hero.title}
             </span>
           </h1>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold tracking-tight">
@@ -71,7 +73,7 @@ export default function Hero({ theme }: HeroProps) {
                 : "from-neutral-900 via-slate-500 to-neutral-500 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400"
                 }`}
             >
-              Patterns Backgrounds
+              {t.hero.subtitle}
             </span>
           </h2>
         </div>
@@ -81,9 +83,7 @@ export default function Hero({ theme }: HeroProps) {
           className={`text-base sm:text-lg mb-6 sm:mb-8 max-w-lg mx-auto leading-relaxed transition-colors duration-300 px-4 sm:px-0 ${isPatternDark ? "text-gray-200" : "text-gray-600 dark:text-gray-200"
             }`}
         >
-          Professional-grade background patterns and gradients. Easily copy the
-          code and seamlessly integrate it into your projects.
-          <span className="block">Crafted with modern CSS and Tailwind</span>
+          {t.hero.description}
         </p>
 
         {/* Feature highlights */}
@@ -108,13 +108,13 @@ export default function Hero({ theme }: HeroProps) {
                 className={`font-semibold text-sm transition-colors duration-300 ${isPatternDark ? "text-white" : "text-gray-900"
                   }`}
               >
-                One-Click Copy
+                {t.hero.featureOneClickTitle}
               </h3>
               <p
                 className={`text-xs transition-colors duration-300 ${isPatternDark ? "text-gray-300" : "text-gray-600"
                   }`}
               >
-                Ready-to-use CSS code
+                {t.hero.featureOneClickDesc}
               </p>
             </div>
           </div>
@@ -138,13 +138,13 @@ export default function Hero({ theme }: HeroProps) {
                 className={`font-semibold text-sm transition-colors duration-300 ${isPatternDark ? "text-white" : "text-gray-900"
                   }`}
               >
-                Live Preview
+                {t.hero.featureLivePreviewTitle}
               </h3>
               <p
                 className={`text-xs transition-colors duration-300 ${isPatternDark ? "text-gray-300" : "text-gray-600"
                   }`}
               >
-                See patterns in action
+                {t.hero.featureLivePreviewDesc}
               </p>
             </div>
           </div>
@@ -163,7 +163,7 @@ export default function Hero({ theme }: HeroProps) {
             }}
           >
             <Github className="h-4 sm:h-5 w-4 sm:w-5" />
-            Contribute Here!
+            {t.hero.secondaryButton}
           </Button>
           <Button
             size="lg"
@@ -174,7 +174,7 @@ export default function Hero({ theme }: HeroProps) {
             onClick={handleBrowsePatternsClick}
           >
             <Code2 className="h-4 sm:h-5 w-4 sm:w-5" />
-            Browse Patterns
+            {t.hero.primaryButton}
           </Button>
         </div>
 
@@ -206,7 +206,7 @@ export default function Hero({ theme }: HeroProps) {
               className={`text-xs sm:text-sm transition-colors duration-300 ${isPatternDark ? "text-gray-300" : ""
                 }`}
             >
-              Patterns
+              {t.hero.statsPatterns}
             </div>
           </div>
           <div className="text-center">
@@ -220,7 +220,7 @@ export default function Hero({ theme }: HeroProps) {
               className={`text-xs sm:text-sm transition-colors duration-300 ${isPatternDark ? "text-gray-300" : ""
                 }`}
             >
-              Free
+              {t.hero.statsFree}
             </div>
           </div>
           <div className="text-center">

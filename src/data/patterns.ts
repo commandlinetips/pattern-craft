@@ -131,7 +131,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(125% 125% at 50% 10%, #ffffff 40%, #14b8a6 100%)
     `,
@@ -157,7 +157,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(125% 125% at 50% 90%, #ffffff 40%, #14b8a6 100%)
     `,
@@ -183,7 +183,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(125% 125% at 50% 10%, #ffffff 40%, #ec4899 100%)
     `,
@@ -209,7 +209,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(125% 125% at 50% 90%, #ffffff 40%, #ec4899 100%)
     `,
@@ -236,7 +236,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(125% 125% at 50% 10%, #ffffff 40%, #f59e0b 100%)
     `,
@@ -262,7 +262,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(125% 125% at 50% 90%, #ffffff 40%, #f59e0b 100%)
     `,
@@ -288,7 +288,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(125% 125% at 50% 10%, #ffffff 40%, #10b981 100%)
     `,
@@ -314,7 +314,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(125% 125% at 50% 90%, #ffffff 40%, #10b981 100%)
     `,
@@ -341,7 +341,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
      radial-gradient(125% 125% at 50% 90%, #000000 40%, #0d1a36 100%)
     `,
@@ -365,7 +365,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `radial-gradient(125% 125% at 50% 100%, #000000 40%, #2b0707 100%)`,
       backgroundSize: "100% 100%",
     },
@@ -386,7 +386,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `radial-gradient(125% 125% at 50% 90%, #000000 40%, #072607 100%)`,
       backgroundSize: "100% 100%",
     },
@@ -407,7 +407,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `radial-gradient(125% 125% at 50% 90%, #000000 40%, #2b092b 100%)`,
       backgroundSize: "100% 100%",
     },
@@ -428,7 +428,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `radial-gradient(125% 125% at 50% 100%, #000000 40%, #010133 100%)`,
       backgroundSize: "100% 100%",
     },
@@ -449,7 +449,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "decorative",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `radial-gradient(125% 125% at 50% 100%, #000000 40%, #350136 100%)`,
       backgroundSize: "100% 100%",
     },
@@ -592,7 +592,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "geometric",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       linear-gradient(to right, #f0f0f0 1px, transparent 1px),
       linear-gradient(to bottom, #f0f0f0 1px, transparent 1px),
@@ -623,7 +623,7 @@ export const gridPatterns: Pattern[] = [
     badge: "New",
     category: "geometric",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       linear-gradient(to right, #f0f0f0 1px, transparent 1px),
       linear-gradient(to bottom, #f0f0f0 1px, transparent 1px),
@@ -653,7 +653,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     name: "Dual Gradient Overlay",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       linear-gradient(to right, rgba(229,231,235,0.8) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(229,231,235,0.8) 1px, transparent 1px),
@@ -685,7 +685,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       linear-gradient(to right, rgba(229,231,235,0.8) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(229,231,235,0.8) 1px, transparent 1px),
@@ -717,7 +717,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       linear-gradient(to right, rgba(229,231,235,0.8) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(229,231,235,0.8) 1px, transparent 1px),
@@ -749,7 +749,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       linear-gradient(to right, rgba(229,231,235,0.8) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(229,231,235,0.8) 1px, transparent 1px),
@@ -781,7 +781,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      linear-gradient(to right, #f0f0f0 1px, transparent 1px),
      linear-gradient(to bottom, #f0f0f0 1px, transparent 1px),
@@ -814,7 +814,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      linear-gradient(to right, #f0f0f0 1px, transparent 1px),
      linear-gradient(to bottom, #f0f0f0 1px, transparent 1px),
@@ -856,7 +856,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      linear-gradient(to right, #f0f0f0 1px, transparent 1px),
      linear-gradient(to bottom, #f0f0f0 1px, transparent 1px),
@@ -2577,7 +2577,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       repeating-linear-gradient(0deg, transparent, transparent 5px, rgba(75, 85, 99, 0.06) 5px, rgba(75, 85, 99, 0.06) 6px, transparent 6px, transparent 15px),
       repeating-linear-gradient(90deg, transparent, transparent 5px, rgba(75, 85, 99, 0.06) 5px, rgba(75, 85, 99, 0.06) 6px, transparent 6px, transparent 15px),
@@ -2615,7 +2615,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       repeating-linear-gradient(0deg, transparent, transparent 5px, rgba(75, 85, 99, 0.06) 5px, rgba(75, 85, 99, 0.06) 6px, transparent 6px, transparent 15px),
       repeating-linear-gradient(90deg, transparent, transparent 5px, rgba(75, 85, 99, 0.06) 5px, rgba(75, 85, 99, 0.06) 6px, transparent 6px, transparent 15px),
@@ -2653,7 +2653,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       repeating-linear-gradient(0deg, transparent, transparent 19px, rgba(75, 85, 99, 0.08) 19px, rgba(75, 85, 99, 0.08) 20px, transparent 20px, transparent 39px, rgba(75, 85, 99, 0.08) 39px, rgba(75, 85, 99, 0.08) 40px),
       repeating-linear-gradient(90deg, transparent, transparent 19px, rgba(75, 85, 99, 0.08) 19px, rgba(75, 85, 99, 0.08) 20px, transparent 20px, transparent 39px, rgba(75, 85, 99, 0.08) 39px, rgba(75, 85, 99, 0.08) 40px),
@@ -2693,7 +2693,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       repeating-linear-gradient(0deg, transparent, transparent 19px, rgba(75, 85, 99, 0.08) 19px, rgba(75, 85, 99, 0.08) 20px, transparent 20px, transparent 39px, rgba(75, 85, 99, 0.08) 39px, rgba(75, 85, 99, 0.08) 40px),
       repeating-linear-gradient(90deg, transparent, transparent 19px, rgba(75, 85, 99, 0.08) 19px, rgba(75, 85, 99, 0.08) 20px, transparent 20px, transparent 39px, rgba(75, 85, 99, 0.08) 39px, rgba(75, 85, 99, 0.08) 40px),
@@ -2813,7 +2813,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       linear-gradient(to right, rgba(0,0,0,0.06) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(0,0,0,0.06) 1px, transparent 1px),
@@ -2853,7 +2853,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       linear-gradient(to right, rgba(0,0,0,0.06) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(0,0,0,0.06) 1px, transparent 1px),
@@ -2893,7 +2893,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.35) 1px, transparent 0)
     `,
@@ -2908,7 +2908,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: "radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.35) 1px, transparent 0)",
       backgroundSize: "20px 20px",
        WebkitMaskImage:
@@ -2926,7 +2926,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.35) 1px, transparent 0)
     `,
@@ -2941,7 +2941,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: "radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.35) 1px, transparent 0)",
       backgroundSize: "20px 20px",
          WebkitMaskImage:
@@ -3982,7 +3982,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      radial-gradient(circle at center, #8249fc, transparent)        
    `,
@@ -4006,7 +4006,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      radial-gradient(circle at center, #10b981, transparent)
    `,
@@ -4032,7 +4032,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      radial-gradient(circle at center, #6366f1, transparent)
    `,
@@ -4056,7 +4056,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      radial-gradient(circle at center, #84cc16, transparent)
    `,
@@ -4080,7 +4080,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      radial-gradient(circle at center, #eab308, transparent)
    `,
@@ -4104,7 +4104,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      radial-gradient(circle at center, #c4b5fd, transparent)
    `,
@@ -4128,7 +4128,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      radial-gradient(circle at center, #fbb6ce, transparent)
    `,
@@ -4152,7 +4152,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      radial-gradient(circle at center, #93c5fd, transparent)
    `,
@@ -4201,7 +4201,7 @@ export const gridPatterns: Pattern[] = [
     name: "Purple Glow Right",
     category: "effects",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top right,
@@ -4217,7 +4217,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top right,
@@ -4239,7 +4239,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top right,
@@ -4255,7 +4255,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top right,
@@ -4276,7 +4276,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top right,
@@ -4292,7 +4292,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top right,
@@ -4313,7 +4313,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top right,
@@ -4329,7 +4329,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top right,
@@ -4351,7 +4351,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top left,
@@ -4367,7 +4367,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top left,
@@ -4388,7 +4388,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top left,
@@ -4404,7 +4404,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top left,
@@ -4425,7 +4425,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top left,
@@ -4441,7 +4441,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top left,
@@ -4462,7 +4462,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top left,
@@ -4478,7 +4478,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top left,
@@ -4501,7 +4501,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top center,
@@ -4517,7 +4517,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top center,
@@ -4538,7 +4538,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top center,
@@ -4554,7 +4554,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top center,
@@ -4575,7 +4575,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top center,
@@ -4591,7 +4591,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top center,
@@ -4612,7 +4612,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(
         circle at top center,
@@ -4628,7 +4628,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: \`
         radial-gradient(
           circle at top center,
@@ -4758,7 +4758,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       repeating-linear-gradient(0deg, transparent, transparent 20px, rgba(75, 85, 99, 0.08) 20px, rgba(75, 85, 99, 0.08) 21px),
       repeating-linear-gradient(90deg, transparent, transparent 30px, rgba(107, 114, 128, 0.06) 30px, rgba(107, 114, 128, 0.06) 31px),
@@ -4788,7 +4788,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       repeating-linear-gradient(0deg, transparent, transparent 19px, rgba(75, 85, 99, 0.08) 19px, rgba(75, 85, 99, 0.08) 20px, transparent 20px, transparent 39px, rgba(75, 85, 99, 0.08) 39px, rgba(75, 85, 99, 0.08) 40px),
       repeating-linear-gradient(90deg, transparent, transparent 19px, rgba(75, 85, 99, 0.08) 19px, rgba(75, 85, 99, 0.08) 20px, transparent 20px, transparent 39px, rgba(75, 85, 99, 0.08) 39px, rgba(75, 85, 99, 0.08) 40px),
@@ -4820,7 +4820,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       repeating-linear-gradient(0deg, transparent, transparent 5px, rgba(75, 85, 99, 0.06) 5px, rgba(75, 85, 99, 0.06) 6px, transparent 6px, transparent 15px),
       repeating-linear-gradient(90deg, transparent, transparent 5px, rgba(75, 85, 99, 0.06) 5px, rgba(75, 85, 99, 0.06) 6px, transparent 6px, transparent 15px),
@@ -4850,7 +4850,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       repeating-linear-gradient(0deg, rgba(75, 85, 99, 0.08), rgba(75, 85, 99, 0.08) 2px, transparent 2px, transparent 6px),
       repeating-linear-gradient(90deg, rgba(107, 114, 128, 0.06), rgba(107, 114, 128, 0.06) 2px, transparent 2px, transparent 6px),
@@ -4880,7 +4880,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       repeating-linear-gradient(22.5deg, transparent, transparent 2px, rgba(75, 85, 99, 0.06) 2px, rgba(75, 85, 99, 0.06) 3px, transparent 3px, transparent 8px),
       repeating-linear-gradient(67.5deg, transparent, transparent 2px, rgba(107, 114, 128, 0.05) 2px, rgba(107, 114, 128, 0.05) 3px, transparent 3px, transparent 8px),
@@ -4910,7 +4910,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       linear-gradient(to right, rgba(0,0,0,0.06) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(0,0,0,0.06) 1px, transparent 1px),
@@ -4943,7 +4943,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.35) 1px, transparent 0)
     `,
@@ -4954,7 +4954,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: "radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.35) 1px, transparent 0)",
       backgroundSize: "20px 20px",
     }}
@@ -5208,7 +5208,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
       linear-gradient(to right, rgba(75, 85, 99, 0.4) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(75, 85, 99, 0.4) 1px, transparent 1px)
@@ -5220,7 +5220,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: \`
         linear-gradient(to right, rgba(75, 85, 99, 0.4) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(75, 85, 99, 0.4) 1px, transparent 1px)
@@ -5237,7 +5237,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
       linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px)
@@ -5265,7 +5265,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
      linear-gradient(to right, #262626 1px, transparent 1px),
      linear-gradient(to bottom, #262626 1px, transparent 1px)
@@ -5324,7 +5324,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
        repeating-linear-gradient(
                           90deg,
@@ -5435,7 +5435,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
       linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px),
@@ -5449,7 +5449,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: \`
         linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px),
@@ -5533,7 +5533,7 @@ export const gridPatterns: Pattern[] = [
     name: "Dark White Dotted Grid",
     category: "geometric",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
       radial-gradient(circle, rgba(255, 255, 255, 0.2) 1.5px, transparent 1.5px)
     `,
@@ -5545,7 +5545,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: \`
         radial-gradient(circle, rgba(255, 255, 255, 0.2) 1.5px, transparent 1.5px)
       \`,
@@ -5563,7 +5563,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
       radial-gradient(circle at 1px 1px, rgba(139, 92, 246, 0.2) 1px, transparent 0),
       radial-gradient(circle at 1px 1px, rgba(59, 130, 246, 0.18) 1px, transparent 0),
@@ -5577,7 +5577,7 @@ export const gridPatterns: Pattern[] = [
   <div
     className="absolute inset-0 z-0"
     style={{
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: \`
         radial-gradient(circle at 1px 1px, rgba(139, 92, 246, 0.2) 1px, transparent 0),
         radial-gradient(circle at 1px 1px, rgba(59, 130, 246, 0.18) 1px, transparent 0),
@@ -5596,7 +5596,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
        repeating-linear-gradient(45deg, rgba(0, 255, 65, 0.08) 0, rgba(0, 255, 65, 0.08) 1px, transparent 1px, transparent 12px),
         repeating-linear-gradient(-45deg, rgba(0, 255, 65, 0.08) 0, rgba(0, 255, 65, 0.08) 1px, transparent 1px, transparent 12px),
@@ -6425,7 +6425,7 @@ export const gridPatterns: Pattern[] = [
     category: "gradients",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
      radial-gradient(
        circle at top,
@@ -6615,7 +6615,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
      radial-gradient(circle at top center, rgba(59, 130, 246, 0.5), transparent 70%)
    `,
@@ -6641,7 +6641,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
         radial-gradient(circle at 50% 100%, rgba(253, 224, 71, 0.4) 0%, transparent 60%),
         radial-gradient(circle at 50% 100%, rgba(251, 191, 36, 0.4) 0%, transparent 70%),
@@ -6669,7 +6669,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
         radial-gradient(circle at 50% 100%, rgba(70, 85, 110, 0.5) 0%, transparent 60%),
         radial-gradient(circle at 50% 100%, rgba(99, 102, 241, 0.4) 0%, transparent 70%),
@@ -6697,7 +6697,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
       radial-gradient(circle at 50% 100%, rgba(58, 175, 169, 0.6) 0%, transparent 60%),
       radial-gradient(circle at 50% 100%, rgba(255, 140, 0, 0.4) 0%, transparent 70%),
@@ -6725,7 +6725,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
       radial-gradient(circle at 50% 100%, rgba(255, 99, 71, 0.6) 0%, transparent 60%), /* tomato red */
       radial-gradient(circle at 50% 100%, rgba(255, 215, 0, 0.4) 0%, transparent 70%), /* gold */
@@ -6753,7 +6753,7 @@ export const gridPatterns: Pattern[] = [
     category: "effects",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
       radial-gradient(circle at 50% 100%, rgba(255, 69, 0, 0.6) 0%, transparent 60%), /* orange red */
       radial-gradient(circle at 50% 100%, rgba(255, 140, 0, 0.4) 0%, transparent 70%), /* dark orange */
@@ -7046,7 +7046,7 @@ export const gridPatterns: Pattern[] = [
     category: "gradients",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
       radial-gradient(circle at 50% 50%, 
         rgba(58, 123, 255, 0.25) 0%,       /* Electric Blue */
@@ -7080,7 +7080,7 @@ export const gridPatterns: Pattern[] = [
     category: "gradients",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
       radial-gradient(circle at 50% 50%, 
         rgba(226, 232, 240, 0.2) 0%, 
@@ -7397,7 +7397,7 @@ export const gridPatterns: Pattern[] = [
     category: "gradients",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
         radial-gradient(
           circle at center,
@@ -7432,7 +7432,7 @@ export const gridPatterns: Pattern[] = [
     category: "gradients",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
         radial-gradient(
           circle at center,
@@ -7466,7 +7466,7 @@ export const gridPatterns: Pattern[] = [
     name: "Emerald Spotlight",
     category: "gradients",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
         radial-gradient(
           circle at center,
@@ -7500,7 +7500,7 @@ export const gridPatterns: Pattern[] = [
     name: "Crimson Spotlight",
     category: "gradients",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
         radial-gradient(
           circle at center,
@@ -7535,7 +7535,7 @@ export const gridPatterns: Pattern[] = [
     category: "gradients",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
         radial-gradient(
           circle at center,
@@ -7569,7 +7569,7 @@ export const gridPatterns: Pattern[] = [
     name: "Amber Spotlight",
     category: "gradients",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
         radial-gradient(
           circle at center,
@@ -7603,7 +7603,7 @@ export const gridPatterns: Pattern[] = [
     name: "Cyan Spotlight",
     category: "gradients",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
         radial-gradient(
           circle at center,
@@ -7637,7 +7637,7 @@ export const gridPatterns: Pattern[] = [
     name: "Rose Spotlight",
     category: "gradients",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
         radial-gradient(
           circle at center,
@@ -7672,7 +7672,7 @@ export const gridPatterns: Pattern[] = [
     category: "gradients",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
      radial-gradient(
        circle at center,
@@ -7707,7 +7707,7 @@ export const gridPatterns: Pattern[] = [
     category: "gradients",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
      radial-gradient(
        circle at top,
@@ -7742,7 +7742,7 @@ export const gridPatterns: Pattern[] = [
     category: "gradients",
     badge: "New",
     style: {
-      background: "#000000",
+      backgroundColor: "#000000",
       backgroundImage: `
      radial-gradient(ellipse 50% 100% at 10% 0%, rgba(226, 232, 240, 0.15), transparent 65%)
    `,
@@ -7785,7 +7785,7 @@ export const gridPatterns: Pattern[] = [
     category: "decorative",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle 600px at 0% 200px, #d5c5ff, transparent),
       radial-gradient(circle 600px at 100% 200px, #d5c5ff, transparent)
@@ -7812,7 +7812,7 @@ export const gridPatterns: Pattern[] = [
     category: "decorative",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle 600px at 0% 200px, #a99bf7, transparent),
       radial-gradient(circle 600px at 100% 200px, #a99bf7, transparent)
@@ -7839,7 +7839,7 @@ export const gridPatterns: Pattern[] = [
     category: "decorative",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle 600px at 0% 200px, #bfdbfe, transparent),
       radial-gradient(circle 600px at 100% 200px, #bfdbfe, transparent)
@@ -7866,7 +7866,7 @@ export const gridPatterns: Pattern[] = [
     category: "decorative",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle 600px at 0% 200px, #bbf7d0, transparent),
       radial-gradient(circle 600px at 100% 200px, #bbf7d0, transparent)
@@ -7893,7 +7893,7 @@ export const gridPatterns: Pattern[] = [
     category: "decorative",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle 600px at 0% 200px, #fce7f3, transparent),
       radial-gradient(circle 600px at 100% 200px, #fce7f3, transparent)
@@ -7920,7 +7920,7 @@ export const gridPatterns: Pattern[] = [
     category: "decorative",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle 600px at 0% 200px, #fed7aa, transparent),
       radial-gradient(circle 600px at 100% 200px, #fed7aa, transparent)
@@ -7947,7 +7947,7 @@ export const gridPatterns: Pattern[] = [
     category: "decorative",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle 600px at 0% 200px, #a7f3d0, transparent),
       radial-gradient(circle 600px at 100% 200px, #a7f3d0, transparent)
@@ -7974,7 +7974,7 @@ export const gridPatterns: Pattern[] = [
     category: "decorative",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle 600px at 0% 200px, #fef3c7, transparent),
       radial-gradient(circle 600px at 100% 200px, #fef3c7, transparent)
@@ -8001,7 +8001,7 @@ export const gridPatterns: Pattern[] = [
     category: "decorative",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle 600px at 0% 200px, #c7d2fe, transparent),
       radial-gradient(circle 600px at 100% 200px, #c7d2fe, transparent)
@@ -8028,7 +8028,7 @@ export const gridPatterns: Pattern[] = [
     category: "decorative",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
       radial-gradient(circle 600px at 0% 200px, #fda4af, transparent),
       radial-gradient(circle 600px at 100% 200px, #fda4af, transparent)
@@ -8307,7 +8307,7 @@ export const gridPatterns: Pattern[] = [
     category: "geometric",
     badge: "New",
     style: {
-      background: "#ffffff",
+      backgroundColor: "#ffffff",
       backgroundImage: `
         linear-gradient(90deg, rgba(16,185,129,0.25) 1px, transparent 0),
         linear-gradient(180deg, rgba(16,185,129,0.25) 1px, transparent 0),

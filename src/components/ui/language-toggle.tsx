@@ -7,7 +7,7 @@ interface LanguageToggleProps {
 }
 
 export function LanguageToggle({ theme }: LanguageToggleProps) {
-  const { language, setLanguage } = useLanguage();
+  const { language, setLanguage, t } = useLanguage();
   const isDark = theme === "dark";
 
   const toggleLanguage = () => {
@@ -24,7 +24,7 @@ export function LanguageToggle({ theme }: LanguageToggleProps) {
     >
       <Languages className="h-4 w-4" />
       <span className="text-sm font-medium">
-        {language === "en" ? "العربية" : "English"}
+        {language === "en" ? t.language.ar : t.language.en}
       </span>
     </Button>
   );

@@ -2,6 +2,7 @@
 
 import { Palette, Star } from "lucide-react";
 import { useFavorites } from "@/context/favourites-context";
+import { useLanguage } from "@/context/language-context";
 
 interface PatternEmptyStateProps {
   activeTab: string;
@@ -13,6 +14,7 @@ export default function PatternEmptyState({
   theme,
 }: PatternEmptyStateProps) {
   const { favourites } = useFavorites();
+  const { t } = useLanguage();
   const isPatternDark = theme === "dark";
 
   if (activeTab === "favourites" && favourites.length === 0) {
@@ -26,16 +28,14 @@ export default function PatternEmptyState({
             isPatternDark ? "text-gray-200" : "text-black dark:text-gray-200"
           }`}
         >
-          No favourites yet
+          {t.empty.noFavoritesTitle}
         </h3>
         <p
           className={`${
             isPatternDark ? "text-gray-200" : "text-gray-600 dark:text-gray-200"
           }`}
         >
-          You haven&apos;t saved any favorites yet. Tap the{" "}
-          <Star className="inline -mt-1 h-4 w-4 text-yellow-400" /> icon on a
-          pattern to add it to your favorites!
+          {t.empty.noFavoritesDesc}
         </p>
       </div>
     );
@@ -51,14 +51,14 @@ export default function PatternEmptyState({
           isPatternDark ? "text-gray-200" : "text-gray-600 dark:text-gray-200"
         }`}
       >
-        No patterns found
+        {t.empty.noPatternsTitle}
       </h3>
       <p
         className={`${
           isPatternDark ? "text-gray-200" : "text-gray-600 dark:text-gray-200"
         }`}
       >
-        No patterns available in this category yet.
+        {t.empty.noPatternsDesc}
       </p>
     </div>
   );

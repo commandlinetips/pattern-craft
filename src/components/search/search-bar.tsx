@@ -1,6 +1,7 @@
 import { debounce } from "@/lib/utils";
 import { Search, X } from "lucide-react";
 import { useCallback, useRef } from "react";
+import { useLanguage } from "@/context/language-context";
 
 interface SearchBarProps {
   searchInput: string;
@@ -14,6 +15,7 @@ export function SearchBar({
   isPatternDark,
 }: SearchBarProps) {
   const inputRef = useRef<HTMLInputElement>(null);
+  const { t } = useLanguage();
 
   const handleSearch = useCallback(
     debounce(() => {
@@ -41,13 +43,13 @@ export function SearchBar({
       <Search className="text-[4px] font-extralight text-gray-600 scale-75"></Search>
       <input
         type="text"
-        className={`w-full h-auto py-2 px-2 text-sm  font-medium grow bg-transparent 
+        className={`w-full h-auto py-2 px-2 text-sm  font-medium grow bg-transparent
   outline-none rounded-xl ${
     isPatternDark
       ? "text-white placeholder-gray-400 focus:border-white/40"
       : " text-gray-600 placeholder-gray-500 focus:border-gray-300"
   }`}
-        placeholder="Search..."
+        placeholder={t.search.placeholder}
         ref={inputRef}
         onChange={() => handleSearch()}
       />

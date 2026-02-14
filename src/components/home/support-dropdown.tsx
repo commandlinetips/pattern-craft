@@ -11,6 +11,7 @@ import {
   ChevronUp,
   DollarSign,
 } from "lucide-react";
+import { useLanguage } from "@/context/language-context";
 
 interface SupportDropdownProps {
   theme?: "light" | "dark";
@@ -28,6 +29,7 @@ const SupportDropdown: React.FC<SupportDropdownProps> = ({
   const [isOpen, setIsOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const { t } = useLanguage();
 
   // Handle click outside to close dropdown
   useEffect(() => {
@@ -125,7 +127,7 @@ const SupportDropdown: React.FC<SupportDropdownProps> = ({
               <Coffee className="w-3 sm:w-4 h-3 sm:h-4 text-white" />
             </div>
             <span className="font-medium text-sm sm:text-base">
-              Buy Me Coffee
+              {t.support.buyMeCoffee}
             </span>
           </button>
 
@@ -144,7 +146,7 @@ const SupportDropdown: React.FC<SupportDropdownProps> = ({
               <DollarSign className="w-3 sm:w-4 h-3 sm:h-4 text-white" />
             </div>
             <span className="font-medium text-sm sm:text-base">
-              PayPal
+              {t.support.paypal}
             </span>
           </button>
 
@@ -165,19 +167,19 @@ const SupportDropdown: React.FC<SupportDropdownProps> = ({
               </div>
               <div className="flex-1 text-left">
                 <div className="font-medium text-sm sm:text-base">
-                  UPI Payment
+                  {t.support.upiPayment}
                 </div>
                 <div
                   className={`text-xs ${theme === "dark" ? "text-white/60" : "text-gray-600"
                     }`}
                 >
-                  Scan QR or copy UPI ID
+                  {t.support.scanOrCopy}
                 </div>
               </div>
               <button
                 onClick={copyUpiId}
                 className="w-8 h-8 flex items-center justify-center rounded transition"
-                title="Copy UPI ID"
+                title={t.support.copyUpiId}
                 tabIndex={-1}
               >
                 {copied ? (
@@ -198,13 +200,13 @@ const SupportDropdown: React.FC<SupportDropdownProps> = ({
                 fgColor="#222"
               />
               <div className="mt-2 text-xs text-center text-gray-500">
-                UPI ID:{" "}
+                {t.support.upiIdLabel}{" "}
                 <span className="font-mono text-xs text-gray-800">
                   {UPI_ID}
                 </span>
               </div>
               <div className="text-[11px] text-gray-500">
-                Scan to pay with any UPI app
+                {t.support.scanToPay}
               </div>
             </div>
             {copied && (
@@ -217,7 +219,7 @@ const SupportDropdown: React.FC<SupportDropdownProps> = ({
                   }
               `}
               >
-                UPI ID copied to clipboard!
+                {t.support.copiedToClipboard}
               </div>
             )}
           </div>
@@ -227,6 +229,7 @@ const SupportDropdown: React.FC<SupportDropdownProps> = ({
       {/* Floating Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
+        aria-label={t.support.ariaLabel}
         className={`
           w-10 h-10 sm:w-12 sm:h-12 rounded-full backdrop-blur-md border shadow-xl
           flex items-center justify-center transition-all duration-300
@@ -236,7 +239,6 @@ const SupportDropdown: React.FC<SupportDropdownProps> = ({
           }
           ${isOpen ? "rotate-180" : "rotate-0"}
         `}
-        aria-label="Support options"
       >
         {isOpen ? (
           <ChevronUp

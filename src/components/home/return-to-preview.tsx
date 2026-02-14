@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import { useEffect, useState, useRef } from "react";
+import { useLanguage } from "@/context/language-context";
 
 interface ReturnToPreviewProps {
   theme?: "light" | "dark";
@@ -15,6 +16,7 @@ export default function ReturnToPreview({
   const [hasScrolledDown, setHasScrolledDown] = useState(false);
   const savedScrollY = useRef<number>(0);
   const [tooltipVisible, setTooltipVisible] = useState(false);
+  const { t } = useLanguage();
 
   const saveScrollPosition = (position: number) => {
     savedScrollY.current = position;
@@ -71,18 +73,18 @@ export default function ReturnToPreview({
                 : "bg-white border-gray-300 text-black hover:bg-gray-50"
             }`}
             onClick={handleReturn}
-            aria-label="Return back to preview"
+            aria-label={t.returnToPreview.ariaLabel}
           >
             <ArrowDown className="size-4" />
           </Button>
           {/* Tooltip */}
           {tooltipVisible && (
             <span
-              className={`absolute top-1/2 right-full mr-2 -translate-y-1/2 
-                   whitespace-nowrap px-2 py-1.5 text-xs rounded-md shadow-lg  
+              className={`absolute top-1/2 right-full mr-2 -translate-y-1/2
+                   whitespace-nowrap px-2 py-1.5 text-xs rounded-md shadow-lg
                    backdrop-blur-sm z-50 bg-white border `}
             >
-              Return back to preview
+              {t.returnToPreview.label}
               {/*  Arrow */}
               <span
                 className={`absolute w-2 h-2  rotate-45 top-1/2 -translate-y-1/2 -right-1 bg-white border-t border-r}`}

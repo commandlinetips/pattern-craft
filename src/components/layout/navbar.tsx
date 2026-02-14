@@ -4,6 +4,7 @@ import { Github, Twitter } from "lucide-react";
 import Image from "next/image";
 import { APP_CONFIG } from "@/lib/constants";
 import { LanguageToggle } from "@/components/ui/language-toggle";
+import { useLanguage } from "@/context/language-context";
 
 interface NavbarProps {
   theme: "light" | "dark";
@@ -11,6 +12,7 @@ interface NavbarProps {
 
 export default function Navbar({ theme }: NavbarProps) {
   const isPatternDark = theme === "dark";
+  const { t } = useLanguage();
 
   return (
     <nav className="w-full py-6">
@@ -32,7 +34,7 @@ export default function Navbar({ theme }: NavbarProps) {
             draggable={false}
             style={{ userSelect: "none" }}
           />
-          <span className="whitespace-nowrap">PatternCraft</span>
+          <span className="whitespace-nowrap">{t.navbar.brand}</span>
         </span>
         <div className="flex items-center gap-3">
           <LanguageToggle theme={theme} />
@@ -46,7 +48,7 @@ export default function Navbar({ theme }: NavbarProps) {
                   ? "hover:bg-white/10"
                   : "hover:bg-neutral-100 dark:hover:bg-neutral-800"
               }`}
-              aria-label="Twitter"
+              aria-label={t.navbar.twitterAriaLabel}
             >
               <Twitter
                 className={`h-5 w-5 sm:h-6 sm:w-6 transition-colors duration-300 ${
@@ -66,7 +68,7 @@ export default function Navbar({ theme }: NavbarProps) {
                   ? "hover:bg-white/10"
                   : "hover:bg-neutral-100 dark:hover:bg-neutral-800"
               }`}
-              aria-label="GitHub"
+              aria-label={t.navbar.githubAriaLabel}
             >
               <Github
                 className={`h-5 w-5 sm:h-6 sm:w-6 transition-colors duration-300 ${

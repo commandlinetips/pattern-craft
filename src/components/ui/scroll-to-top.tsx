@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { ChevronUp } from "lucide-react";
+import { useLanguage } from "@/context/language-context";
 
 interface ScrollToTopProps {
   theme?: "light" | "dark";
@@ -9,6 +10,7 @@ interface ScrollToTopProps {
 
 const ScrollToTop: React.FC<ScrollToTopProps> = ({ theme = "light" }) => {
   const [isVisible, setIsVisible] = useState(false);
+  const { t } = useLanguage();
 
   // Show button when page is scrolled down
   useEffect(() => {
@@ -48,7 +50,7 @@ const ScrollToTop: React.FC<ScrollToTopProps> = ({ theme = "light" }) => {
             : "bg-white border-gray-300 hover:bg-gray-50"
         }
       `}
-      aria-label="Scroll to top"
+      aria-label={t.scrollToTop.ariaLabel}
     >
       <ChevronUp
         className={`w-5 sm:w-6 h-5 sm:h-6 ${

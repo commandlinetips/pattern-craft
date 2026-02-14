@@ -1,11 +1,14 @@
 "use client";
 
+import { useLanguage } from "@/context/language-context";
+
 interface FooterProps {
   theme: "light" | "dark";
 }
 
 export default function Footer({ theme }: FooterProps) {
   const isPatternDark = theme === "dark";
+  const { t } = useLanguage();
 
   return (
     <footer
@@ -26,14 +29,14 @@ export default function Footer({ theme }: FooterProps) {
               isPatternDark ? "text-white" : ""
             }`}
           >
-            © {new Date().getFullYear()} PatternCraft. All rights reserved.
+            {t.footer.copyright.replace("{year}", new Date().getFullYear().toString())}
           </p>
           <p
             className={`mt-2 text-sm italic transition-colors duration-300 ${
               isPatternDark ? "text-white" : ""
             }`}
           >
-            Crafting beautiful patterns
+            {t.footer.tagline}
           </p>
         </div>
       </div>
